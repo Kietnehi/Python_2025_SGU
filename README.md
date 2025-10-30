@@ -1,15 +1,21 @@
 # Python & Machine Learning - SGU 2025
 
 <div align="center">
-  
-  <!-- Thêm hình ảnh giới thiệu của bạn tại đây -->
-  <!-- <img src="asset/banner.png" alt="Python ML Banner" width="800"/> -->
-  
-  ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
-  ![Deep Learning](https://img.shields.io/badge/Deep%20Learning-PyTorch%20%7C%20TensorFlow-orange.svg)
-  ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-scikit--learn-green.svg)
-  
+
+| | | | |
+|:--:|:--:|:--:|:--:|
+| <img src="asset/MLjpg.jpg" width="180"/> | <img src="asset/DL.jpg" width="180"/> | <img src="asset/transformer.png" width="180"/> | <img src="asset/python.jpg" width="180"/> |
+
+<br>
+
+<img src="https://img.shields.io/badge/Python-3.8+-blue.svg" alt="Python"/>
+<img src="https://img.shields.io/badge/Deep%20Learning-PyTorch%20%7C%20TensorFlow-orange.svg" alt="Deep Learning"/>
+<img src="https://img.shields.io/badge/Machine%20Learning-scikit--learn-green.svg" alt="Machine Learning"/>
+
 </div>
+
+
+
 
 ## 📚 Giới thiệu
 
@@ -57,24 +63,35 @@ Repository này chứa các bài tập, dự án và tài liệu học tập v�
 #### Unsupervised Learning
 - **SOM (Self-Organizing Maps)**: Bản đồ tự tổ chức
 
-## 📁 Cấu trúc thư mục
+## 📁 Cấu trúc thư mục  (tree.txt)
+
 
 ```
-├── Nhập môn python/          # Bài tập Python cơ bản
-│   ├── numpyy.ipynb
-│   ├── pandas.ipynb
-│   ├── matplotlib.ipynb
-│   └── BaiTapMonNhapMonPython.ipynb
-├── CNN/                      # Convolutional Neural Networks
-│   ├── CNN_ViDuSo.ipynb
-│   └── CNN_NhanDienMail_NhanDienAnh.ipynb
-├── CODE_SVM/                 # Support Vector Machine
+Python project tree - 2025-10-30 09:23:28
+Root: C:\Users\ADMIN\Desktop\python
+
+├── asset             # Hình ảnh và tài nguyên 
+│   ├── DL.jpg
+│   ├── MLjpg.jpg
+│   ├── python.jpg
+│   └── transformer.png
+├── CNN
+│   ├── CNN_NhanDienMail_NhanDienAnh.ipynb
+│   └── CNN_ViDuSo.ipynb
+├── CODE_SVM
 │   ├── [Solution]_Auto_Insurance_Prediction.ipynb
 │   ├── [Solution]_Breast_Cancer_Recurrence_Classification.ipynb
-│   └── datasets/
-├── YOLO/                     # Object Detection
+│   ├── auto-insurance.csv
+│   └── breast-cancer.csv
+├── Nhập môn python
+│   ├── BaiTapMonNhapMonPython.ipynb
+│   ├── matplotlib.ipynb
+│   ├── numpyy.ipynb
+│   └── tuan3_pandas.ipynb
+├── YOLO
 │   └── Detect_people_yolo11n.py
-└── asset/                    # Hình ảnh và tài nguyên
+├── README.md
+└── tree.txt
 ```
 
 ## 🚀 Bắt đầu
@@ -141,3 +158,22 @@ Mọi đóng góp đều được chào đón! Hãy tạo Pull Request hoặc m�
   Made with ❤️ by SGU Students
   
 </div>
+## 🎓 Liên kết học tập (Canvas & Projects)
+
+| 🔗 Chủ đề | 📘 Link Canvas |
+|:--|:--|
+| Numpy| [Numpy](https://drive.google.com/file/d/15mp6EOB68LNWKGEomKHZSMvcYsd4IUwr/view?usp=sharing&fbclid=IwY2xjawNvsA5leHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR5C_wiuMBgf0P3WaZBkN2p7v5_C22-6HyeT85f9WrHBCalkYafXNZapRWCnqg_aem_GT04jOBGwkOhwPU8kUM67g) |
+| Matplotlib | [Matplotlib](https://www.canva.com/design/DAGZWHSgnCI/nZZyRT0o7w2OSxDM8Ys3Vw/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0&fbclid=IwY2xjawNvsC5leHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR4ZOQ4yh4BgxTsoKOe-KyahXihXVMh7e2hdIszil7vUuwRATaw61ECY2Z5_aw_aem_vlPXtJB80nIUbLjJWNmvcA) |
+| Pandas | [Pandas](https://www.canva.com/design/DAGzVtrx2bc/cf3JB0ldvt2c4wEUGMFkUw/view?utm_content=DAGzVtrx2bc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc39e2939bc&fbclid=IwY2xjawNvsGZleHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR7IsordcuNeSzuk0i6Or4JGU2gVm9yPf2G-qEoyW1wqJ2VBK5XsqbkDcNAbxg_aem_gmeil_ou-rsI3ITd_eKYcA) |
+| SVM | [SVM](https://www.canva.com/design/DAGz8r2iV7M/7omI_zSA5tHtg4jRyYgMQA/edit?ui=eyJIIjp7IkEiOnRydWV9fQ&fbclid=IwY2xjawNvsHVleHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR7IsordcuNeSzuk0i6Or4JGU2gVm9yPf2G-qEoyW1wqJ2VBK5XsqbkDcNAbxg_aem_gmeil_ou-rsI3ITd_eKYcA) |
+| KNN | [KNN](https://www.canva.com/design/DAGz-PdH2-U/1ZLbjFjGYQyIrQXhHAVDGg/edit?fbclid=IwY2xjawNvsKxleHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR7TJLU_ggz0zX9rXganrDbzPSTlKpFQDB6Rd0YjNOW0ExMnv70bdsE43QJW7w_aem_XAk_MyvhZ9h323KMPyRK3A) |
+| KMeans | [KMeans](https://www.canva.com/design/DAG0AgMIdeI/nSC7YnyBhJq-lxUX4VHYwQ/edit?fbclid=IwY2xjawNvsNFleHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR4vgO_hiT2FxpMRz_T8mlmu7cXK7m-lrQDD8YvWhfhZwk7x6ewFNUMp-gDfzg_aem_EUyq1pcMPJn1puaAEVR3wQ) |
+| CNN | [CNN](canva.com/design/DAG0k1BtRMY/sSwAmH3TCnEO5oux_8C2iQ/edit?utm_content=DAG0k1BtRMY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton&fbclid=IwY2xjawNvsOZleHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR4wae4iSpPnhg5Y8ghEPQUx1EfnQTLWXk6Yb5v9Avdk7w8IYkil9QyIfr1k-g_aem_IqcrsChuRXvbbQEoGh8Xvw) |
+| CNN For TextClassification | [CNN - NLP](https://www.canva.com/design/DAG0pMVsh1g/iLGh4JGtSY-XdLSzuF9Suw/edit?fbclid=IwY2xjawNvsQhleHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR5KHnFbfI-RPO__vsoJmPjcGLOY0jAGK_FngSSSTuevKGPSBaqud_1yPIi3ZA_aem_SikMMzIywBmYx_1IDFfkhA) |
+| VGG | [VGG](https://www.canva.com/design/DAG1WmUVVAA/da9eJiuqoLMyywksKU9C_Q/edit?utm_content=DAG1WmUVVAA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton&fbclid=IwY2xjawNvsU1leHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR5mnLAMzupBb6-MOxQ9GfmvS_Lb8q5-raD5yldaaCo9tzYwLwWBF6MPphC5Dw_aem_7rOfzPtEQcBjL8Dj5rq-Yw) |
+| YOLO | [YOLO](https://www.canva.com/design/DAG13Fvc2Zo/YQOEeYHzBFIdm9_CjeqliA/edit?fbclid=IwY2xjawNvsVJleHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR4wae4iSpPnhg5Y8ghEPQUx1EfnQTLWXk6Yb5v9Avdk7w8IYkil9QyIfr1k-g_aem_IqcrsChuRXvbbQEoGh8Xvw) |
+| ResNet | [ResNet](https://www.canva.com/design/DAG2mWgdXkw/jjbjbrMHs3HSH7RTadEDMg/edit?fbclid=IwY2xjawNvsW1leHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR4ZOQ4yh4BgxTsoKOe-KyahXihXVMh7e2hdIszil7vUuwRATaw61ECY2Z5_aw_aem_vlPXtJB80nIUbLjJWNmvcA) |
+
+<br>
+
+🧱 *Danh sách đang được cập nhật thêm...*
