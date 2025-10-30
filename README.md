@@ -177,6 +177,8 @@ Mọi đóng góp đều được chào đón! Hãy tạo Pull Request hoặc m�
 | 🧩 **VGG Network** | [Xem Canvas](https://www.canva.com/design/DAG1WmUVVAA/da9eJiuqoLMyywksKU9C_Q/edit) |
 | 🎯 **YOLO (Object Detection)** | [Xem Canvas](https://www.canva.com/design/DAG13Fvc2Zo/YQOEeYHzBFIdm9_CjeqliA/edit) |
 | 🔁 **ResNet (Residual Network)** | [Xem Canvas](https://www.canva.com/design/DAG2mWgdXkw/jjbjbrMHs3HSH7RTadEDMg/edit) |
+| **GAN (Generative adversarial networks)** | [Mở File PPTX](./asset/GAN-model.pptx) |
+
 
 ---
 
