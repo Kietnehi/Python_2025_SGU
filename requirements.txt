@@ -1,0 +1,42 @@
+# ==========================
+#  Python & ML @ SGU 2025
+#  Author: Kietnehi
+# ==========================
+
+# --- Python Core & Data ---
+numpy
+pandas
+matplotlib
+scipy
+
+# --- Machine Learning ---
+scikit-learn
+joblib
+
+# --- Deep Learning (PyTorch / TensorFlow) ---
+torch
+torchvision
+tensorflow
+keras
+
+# --- Computer Vision & Transformers ---
+timm              # Vision Transformers (ViT, CLIP, ResNet pretrained)
+transformers      # HuggingFace (Transformer, Encoder-Decoder, CLIP)
+ultralytics       # YOLOv8 / YOLO11 detection
+
+# --- Generative Models (GAN, VAE, etc.) ---
+opencv-python
+pillow
+
+# --- Graph Neural Networks (GNN, GCN) ---
+torch-geometric
+torch-scatter
+torch-sparse
+
+# --- Unsupervised / SOM ---
+minisom
+
+# --- Notebook / Visualization ---
+jupyter
+seaborn
+tqdm

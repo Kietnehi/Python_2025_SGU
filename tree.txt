@@ -1,0 +1,27 @@
+﻿Python project tree - 2025-10-30 09:23:28
+Root: C:\Users\ADMIN\Desktop\python
+
+├── asset
+│   ├── DL.jpg
+│   ├── MLjpg.jpg
+│   ├── python.jpg
+│   └── transformer.png
+├── CNN
+│   ├── CNN_NhanDienMail_NhanDienAnh.ipynb
+│   └── CNN_ViDuSo.ipynb
+├── CODE_SVM
+│   ├── [Solution]_Auto_Insurance_Prediction.ipynb
+│   ├── [Solution]_Breast_Cancer_Recurrence_Classification.ipynb
+│   ├── auto-insurance.csv
+│   └── breast-cancer.csv
+├── Nhập môn python
+│   ├── BaiTapMonNhapMonPython.ipynb
+│   ├── matplotlib.ipynb
+│   ├── numpyy.ipynb
+│   └── tuan3_pandas.ipynb
+├── YOLO
+│   └── Detect_people_yolo11n.py
+├── README.md
+└── tree.txt
+
+(Excluded: __pycache__, venv, .venv, env, .git, .idea, .vscode, .mypy_cache, .pytest_cache, dist, build, .coverage, htmlcov)
