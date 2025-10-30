@@ -134,6 +134,9 @@ jupyter notebook
 - [Deep Residual Learning](https://arxiv.org/abs/1512.03385) - ResNet
 - [YOLO: Real-Time Object Detection](https://arxiv.org/abs/1506.02640)
 - [Learning Transferable Visual Models](https://arxiv.org/abs/2103.00020) - CLIP
+- [VGG](https://arxiv.org/abs/1409.1556) - VGG
+
+
 
 ## 👨‍💻 Tác giả
 
@@ -158,22 +161,24 @@ Mọi đóng góp đều được chào đón! Hãy tạo Pull Request hoặc m�
   Made with ❤️ by SGU Students
   
 </div>
-## 🎓 Liên kết học tập (Canvas & Projects)
 
-| 🔗 Chủ đề | 📘 Link Canvas |
+## 🎓 **Liên kết học tập (Canvas & Projects)**
+
+| 🧩 **Chủ đề** | 🔗 **Link Canva / Tài liệu học tập** |
 |:--|:--|
-| Numpy| [Numpy](https://drive.google.com/file/d/15mp6EOB68LNWKGEomKHZSMvcYsd4IUwr/view?usp=sharing&fbclid=IwY2xjawNvsA5leHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR5C_wiuMBgf0P3WaZBkN2p7v5_C22-6HyeT85f9WrHBCalkYafXNZapRWCnqg_aem_GT04jOBGwkOhwPU8kUM67g) |
-| Matplotlib | [Matplotlib](https://www.canva.com/design/DAGZWHSgnCI/nZZyRT0o7w2OSxDM8Ys3Vw/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0&fbclid=IwY2xjawNvsC5leHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR4ZOQ4yh4BgxTsoKOe-KyahXihXVMh7e2hdIszil7vUuwRATaw61ECY2Z5_aw_aem_vlPXtJB80nIUbLjJWNmvcA) |
-| Pandas | [Pandas](https://www.canva.com/design/DAGzVtrx2bc/cf3JB0ldvt2c4wEUGMFkUw/view?utm_content=DAGzVtrx2bc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc39e2939bc&fbclid=IwY2xjawNvsGZleHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR7IsordcuNeSzuk0i6Or4JGU2gVm9yPf2G-qEoyW1wqJ2VBK5XsqbkDcNAbxg_aem_gmeil_ou-rsI3ITd_eKYcA) |
-| SVM | [SVM](https://www.canva.com/design/DAGz8r2iV7M/7omI_zSA5tHtg4jRyYgMQA/edit?ui=eyJIIjp7IkEiOnRydWV9fQ&fbclid=IwY2xjawNvsHVleHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR7IsordcuNeSzuk0i6Or4JGU2gVm9yPf2G-qEoyW1wqJ2VBK5XsqbkDcNAbxg_aem_gmeil_ou-rsI3ITd_eKYcA) |
-| KNN | [KNN](https://www.canva.com/design/DAGz-PdH2-U/1ZLbjFjGYQyIrQXhHAVDGg/edit?fbclid=IwY2xjawNvsKxleHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR7TJLU_ggz0zX9rXganrDbzPSTlKpFQDB6Rd0YjNOW0ExMnv70bdsE43QJW7w_aem_XAk_MyvhZ9h323KMPyRK3A) |
-| KMeans | [KMeans](https://www.canva.com/design/DAG0AgMIdeI/nSC7YnyBhJq-lxUX4VHYwQ/edit?fbclid=IwY2xjawNvsNFleHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR4vgO_hiT2FxpMRz_T8mlmu7cXK7m-lrQDD8YvWhfhZwk7x6ewFNUMp-gDfzg_aem_EUyq1pcMPJn1puaAEVR3wQ) |
-| CNN | [CNN](canva.com/design/DAG0k1BtRMY/sSwAmH3TCnEO5oux_8C2iQ/edit?utm_content=DAG0k1BtRMY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton&fbclid=IwY2xjawNvsOZleHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR4wae4iSpPnhg5Y8ghEPQUx1EfnQTLWXk6Yb5v9Avdk7w8IYkil9QyIfr1k-g_aem_IqcrsChuRXvbbQEoGh8Xvw) |
-| CNN For TextClassification | [CNN - NLP](https://www.canva.com/design/DAG0pMVsh1g/iLGh4JGtSY-XdLSzuF9Suw/edit?fbclid=IwY2xjawNvsQhleHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR5KHnFbfI-RPO__vsoJmPjcGLOY0jAGK_FngSSSTuevKGPSBaqud_1yPIi3ZA_aem_SikMMzIywBmYx_1IDFfkhA) |
-| VGG | [VGG](https://www.canva.com/design/DAG1WmUVVAA/da9eJiuqoLMyywksKU9C_Q/edit?utm_content=DAG1WmUVVAA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton&fbclid=IwY2xjawNvsU1leHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR5mnLAMzupBb6-MOxQ9GfmvS_Lb8q5-raD5yldaaCo9tzYwLwWBF6MPphC5Dw_aem_7rOfzPtEQcBjL8Dj5rq-Yw) |
-| YOLO | [YOLO](https://www.canva.com/design/DAG13Fvc2Zo/YQOEeYHzBFIdm9_CjeqliA/edit?fbclid=IwY2xjawNvsVJleHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR4wae4iSpPnhg5Y8ghEPQUx1EfnQTLWXk6Yb5v9Avdk7w8IYkil9QyIfr1k-g_aem_IqcrsChuRXvbbQEoGh8Xvw) |
-| ResNet | [ResNet](https://www.canva.com/design/DAG2mWgdXkw/jjbjbrMHs3HSH7RTadEDMg/edit?fbclid=IwY2xjawNvsW1leHRuA2FlbQIxMABicmlkETF4N1kzMThSVUZGcjAzU1R2AR4ZOQ4yh4BgxTsoKOe-KyahXihXVMh7e2hdIszil7vUuwRATaw61ECY2Z5_aw_aem_vlPXtJB80nIUbLjJWNmvcA) |
+| 🧮 **Numpy** | [Xem Canvas](https://drive.google.com/file/d/15mp6EOB68LNWKGEomKHZSMvcYsd4IUwr/view?usp=sharing) |
+| 📊 **Matplotlib** | [Xem Canvas](https://www.canva.com/design/DAGZWHSgnCI/nZZyRT0o7w2OSxDM8Ys3Vw/edit) |
+| 🧾 **Pandas** | [Xem Canvas](https://www.canva.com/design/DAGzVtrx2bc/cf3JB0ldvt2c4wEUGMFkUw/view) |
+| ⚙️ **SVM (Support Vector Machine)** | [Xem Canvas](https://www.canva.com/design/DAGz8r2iV7M/7omI_zSA5tHtg4jRyYgMQA/edit) |
+| 🔍 **KNN (K-Nearest Neighbors)** | [Xem Canvas](https://www.canva.com/design/DAGz-PdH2-U/1ZLbjFjGYQyIrQXhHAVDGg/edit) |
+| 🌀 **KMeans Clustering** | [Xem Canvas](https://www.canva.com/design/DAG0AgMIdeI/nSC7YnyBhJq-lxUX4VHYwQ/edit) |
+| 🧠 **CNN (Convolutional Neural Network)** | [Xem Canvas](https://www.canva.com/design/DAG0k1BtRMY/sSwAmH3TCnEO5oux_8C2iQ/edit) |
+| 🗣️ **CNN for Text Classification (NLP)** | [Xem Canvas](https://www.canva.com/design/DAG0pMVsh1g/iLGh4JGtSY-XdLSzuF9Suw/edit) |
+| 🧩 **VGG Network** | [Xem Canvas](https://www.canva.com/design/DAG1WmUVVAA/da9eJiuqoLMyywksKU9C_Q/edit) |
+| 🎯 **YOLO (Object Detection)** | [Xem Canvas](https://www.canva.com/design/DAG13Fvc2Zo/YQOEeYHzBFIdm9_CjeqliA/edit) |
+| 🔁 **ResNet (Residual Network)** | [Xem Canvas](https://www.canva.com/design/DAG2mWgdXkw/jjbjbrMHs3HSH7RTadEDMg/edit) |
 
-<br>
+---
 
-🧱 *Danh sách đang được cập nhật thêm...*
+> 🧱 **Ghi chú:** Danh sách đang được **cập nhật thêm...**  
+> 💡 *Gợi ý:* Nên ghim trang này để tiện tra cứu khi học hoặc làm project.
