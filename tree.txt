@@ -42,5 +42,5 @@ Root: C:\Users\ADMIN\Desktop\python
 ├── requirements.txt
 ├── test.ipynb
 └── tree.txt
-12
+123
 (Excluded: __pycache__, venv, .venv, env, .git, .idea, .vscode, .mypy_cache, .pytest_cache, dist, build, .coverage, htmlcov)
