@@ -69,10 +69,19 @@ Repository này chứa các bài tập, dự án và tài liệu học tập v�
 
 ---
 
-## 🔗 Link tải Dataset
-- Google Drive: `https://drive.google.com/drive/folders/1DHVwFYHhsI0_yJycMtlq0ju0qLd5JQsv?usp=sharing`
+## 🔗 Dataset
 
-**Bắt buộc:** Tải **nguyên folder** về (không chạy trực tiếp từ Drive).
+## 📦 Dataset Download
+<p align="center">
+  <a href="https://drive.google.com/drive/folders/1DHVwFYHhsI0_yJycMtlq0ju0qLd5JQsv?usp=sharing" target="_blank">
+    <img src="https://img.shields.io/badge/📂_Google_Drive-Dataset-blue?style=for-the-badge&logo=google-drive" alt="Dataset Google Drive">
+  </a>
+</p>
+
+> ⚠️ **Quan trọng:**  
+> Hãy **tải toàn bộ thư mục Dataset về máy** trước khi sử dụng.  
+> Không nên chạy hoặc load dữ liệu trực tiếp từ Google Drive.
+
 
 ---
 ## 📁 Cấu trúc thư mục  (tree.txt)
