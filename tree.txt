@@ -1,8 +1,9 @@
-﻿Python project tree - 2025-10-30 09:23:28
+﻿Python project tree - 2025-11-06 09:48:46
 Root: C:\Users\ADMIN\Desktop\python
 
 ├── asset
 │   ├── DL.jpg
+│   ├── GAN-model.pptx
 │   ├── MLjpg.jpg
 │   ├── python.jpg
 │   └── transformer.png
@@ -14,14 +15,32 @@ Root: C:\Users\ADMIN\Desktop\python
 │   ├── [Solution]_Breast_Cancer_Recurrence_Classification.ipynb
 │   ├── auto-insurance.csv
 │   └── breast-cancer.csv
+├── DecisionTree  - CNN
+│   ├── cnn.ipynb
+│   └── decisiontree.ipynb
+├── EfficientNet
+│   └── efficientnet.ipynb
+├── Extended_on_Internet
+│   ├── digit.png
+│   ├── k_means.ipynb
+│   ├── knn.ipynb
+│   ├── notes.txt
+│   └── svm.ipynb
+├── img
+│   └── dog_alaska.jpg
 ├── Nhập môn python
 │   ├── BaiTapMonNhapMonPython.ipynb
 │   ├── matplotlib.ipynb
 │   ├── numpyy.ipynb
 │   └── tuan3_pandas.ipynb
-├── YOLO
-│   └── Detect_people_yolo11n.py
+├── ResNet
+│   ├── fine_tuned_resnet18_5cls_best.pth
+│   └── resnet.ipynb
+├── VGG
+│   └── vgg.ipynb
 ├── README.md
+├── requirements.txt
+├── test.ipynb
 └── tree.txt
-
+1
 (Excluded: __pycache__, venv, .venv, env, .git, .idea, .vscode, .mypy_cache, .pytest_cache, dist, build, .coverage, htmlcov)

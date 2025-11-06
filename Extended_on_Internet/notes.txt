@@ -1,0 +1,54 @@
+🔵 K-means (Clustering)
+
+Phân nhóm khách hàng trong siêu thị
+
+Dữ liệu: tuổi, thu nhập, thói quen mua sắm.
+
+K-means chia khách hàng thành các cụm: sinh viên thu nhập thấp, người đi làm thu nhập trung bình, người giàu hay mua hàng xa xỉ.
+
+Giúp siêu thị xây dựng chương trình khuyến mãi phù hợp.
+
+
+Nhận diện khuôn mặt không cần gắn nhãn
+
+Tập ảnh khuôn mặt nhưng không biết ai là ai.
+
+K-means gom lại thành các cụm (người A, người B, người C).
+
+Dùng trong ứng dụng tự động tổ chức album ảnh (giống Google Photos).
+
+🟢 KNN (K-Nearest Neighbors – Classification/Regression)
+
+Dự đoán bệnh tiểu đường
+
+Input: tuổi, cân nặng, mức đường huyết, huyết áp.
+
+KNN sẽ tìm các bệnh nhân gần nhất trong dữ liệu huấn luyện để đoán xem người mới có khả năng bị tiểu đường hay không.
+
+
+Nhận diện chữ viết tay (MNIST dataset)
+
+Input: ảnh chữ số viết tay (0–9).
+
+KNN tìm những ảnh gần nhất trong tập huấn luyện.
+
+Nếu phần lớn hàng xóm là số 8 → mẫu mới được dự đoán là số 8.
+
+🟣 SVM (Support Vector Machine)
+
+Phân loại spam email
+
+Dữ liệu: từ khóa trong email, tần suất, độ dài tiêu đề.
+
+SVM tìm “siêu phẳng” phân chia spam và không spam.
+
+Giúp lọc thư rác trong Gmail, Outlook.
+
+
+Nhận diện cảm xúc trong phim
+
+Input: khuôn mặt diễn viên (ảnh).
+
+SVM phân loại: vui, buồn, giận dữ, sợ hãi.
+
+Dùng trong phân tích hành vi người xem hoặc robot giao tiếp.

@@ -1,4 +1,4 @@
-# Python & Machine Learning - SGU 2025
+# Python , Machine Learning , Deep Learning - SGU 2025
 
 <div align="center">
 
@@ -63,15 +63,28 @@ Repository này chứa các bài tập, dự án và tài liệu học tập v�
 #### Unsupervised Learning
 - **SOM (Self-Organizing Maps)**: Bản đồ tự tổ chức
 
+## 📦 Dataset cho Project Python SGU
+
+> **Lưu ý nhanh:** Đây là link Google Drive chứa **toàn bộ Dataset**. Bạn **phải tải nguyên folder về máy** rồi **chỉnh sửa lại đường dẫn (path) tới từng file dữ liệu** trong code trước khi chạy.
+
+---
+
+## 🔗 Link tải Dataset
+- Google Drive: `https://drive.google.com/drive/folders/1DHVwFYHhsI0_yJycMtlq0ju0qLd5JQsv?usp=sharing`
+
+**Bắt buộc:** Tải **nguyên folder** về (không chạy trực tiếp từ Drive).
+
+---
 ## 📁 Cấu trúc thư mục  (tree.txt)
 
 
 ```
-Python project tree - 2025-10-30 09:23:28
+Python project tree - 2025-11-06 09:48:46
 Root: C:\Users\ADMIN\Desktop\python
 
-├── asset             # Hình ảnh và tài nguyên 
+├── asset
 │   ├── DL.jpg
+│   ├── GAN-model.pptx
 │   ├── MLjpg.jpg
 │   ├── python.jpg
 │   └── transformer.png
@@ -83,15 +96,37 @@ Root: C:\Users\ADMIN\Desktop\python
 │   ├── [Solution]_Breast_Cancer_Recurrence_Classification.ipynb
 │   ├── auto-insurance.csv
 │   └── breast-cancer.csv
+├── DecisionTree  - CNN
+│   ├── cnn.ipynb
+│   └── decisiontree.ipynb
+├── EfficientNet
+│   └── efficientnet.ipynb
+├── Extended_on_Internet
+│   ├── digit.png
+│   ├── k_means.ipynb
+│   ├── knn.ipynb
+│   ├── notes.txt
+│   └── svm.ipynb
+├── img
+│   └── dog_alaska.jpg
 ├── Nhập môn python
 │   ├── BaiTapMonNhapMonPython.ipynb
 │   ├── matplotlib.ipynb
 │   ├── numpyy.ipynb
 │   └── tuan3_pandas.ipynb
-├── YOLO
-│   └── Detect_people_yolo11n.py
+├── ResNet
+│   ├── fine_tuned_resnet18_5cls_best.pth
+│   └── resnet.ipynb
+├── VGG
+│   └── vgg.ipynb
 ├── README.md
+├── requirements.txt
+├── test.ipynb
 └── tree.txt
+
+(Excluded: __pycache__, venv, .venv, env, .git, .idea, .vscode, .mypy_cache, .pytest_cache, dist, build, .coverage, htmlcov)
+
+
 ```
 
 ## 🚀 Bắt đầu
@@ -177,7 +212,9 @@ Mọi đóng góp đều được chào đón! Hãy tạo Pull Request hoặc m�
 | 🧩 **VGG Network** | [Xem Canvas](https://www.canva.com/design/DAG1WmUVVAA/da9eJiuqoLMyywksKU9C_Q/edit) |
 | 🎯 **YOLO (Object Detection)** | [Xem Canvas](https://www.canva.com/design/DAG13Fvc2Zo/YQOEeYHzBFIdm9_CjeqliA/edit) |
 | 🔁 **ResNet (Residual Network)** | [Xem Canvas](https://www.canva.com/design/DAG2mWgdXkw/jjbjbrMHs3HSH7RTadEDMg/edit) |
-| **GAN (Generative adversarial networks)** | [Mở File PPTX](./asset/GAN-model.pptx) |
+| **Self-Organizing Maps (SOM) - Bản đồ tự tổ chức** | [Xem Canvas](https://www.canva.com/design/DAG3K5NC1QQ/N4HKT_5uaxu8NCR6T0w8Lg/edit?fbclid=IwY2xjawN4zxhleHRuA2FlbQIxMABicmlkETFiOVA5TjZxWG5IR0FaNkF5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHi4dnCu3wv2XU9drtbje9eYKgyC4VFfoDCfBk158SEl0khcs9wgdRm_wZBNu_aem_Z4unKlUHzVO50PFExkgYLA) |
+| **RNN (Recurrent Neural Network)** | [Xem Canvas](https://www.canva.com/design/DAG2kjV7FP4/Nri7P3ejwkh9iYB9SnntOw/edit?fbclid=IwY2xjawN4z2hleHRuA2FlbQIxMABicmlkETFiOVA5TjZxWG5IR0FaNkF5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHgJlqoGyMQkOATqZOV0H941YliaTCdI03o381MtRCFTbsSM4UUMqmaocRd8x_aem_wkicuxCeA-39oCVUtMfCXA) |
+| **EfficientNet** | [Xem Canvas](https://www.canva.com/design/DAG2kh8IXRI/cNZhpCeR4W0ft_sRqHGt1w/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0&fbclid=IwY2xjawN4z7JleHRuA2FlbQIxMABicmlkETFiOVA5TjZxWG5IR0FaNkF5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHpwGcX9lz8wJ-YS83lh0Cp0IC5Ct1X6dHsBrXRr0f0zixxlOrWhncCHV_y2k_aem_q4_TEyf3tW87hudHq5tEZg) |
 
 
 ---
