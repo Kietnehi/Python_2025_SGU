@@ -1,0 +1,213 @@
+% !TeX program = pdflatex
+\documentclass[a4paper,12pt]{article}
+
+% ===== Tiếng Việt cho pdflatex =====
+\usepackage[utf8]{inputenc}
+\usepackage[T5]{fontenc}
+\usepackage[vietnamese]{babel}
+\usepackage{ragged2e} % để dùng \justifying với pdflatex
+
+% ===== Bố cục & hình ảnh =====
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{hyperref}       % link
+\usepackage{url}            % xử lý URL dài
+\hypersetup{colorlinks=true, urlcolor=blue}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{ragged2e}
+
+% Cấu hình để URL tự ngắt dòng khi dài quá
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue,
+  breaklinks=true
+}
+
+% Đảm bảo LaTeX có thể tự ngắt dòng URL đúng cách
+\def\UrlBreaks{\do\/\do-\do\_\do.\do?\do=\do&}
+
+% ===== TikZ =====
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\setstretch{1.2}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.6pt}}
+
+\begin{document}
+\begin{titlepage}
+\thispagestyle{empty}
+\begin{center}
+
+% ----- Khung viền toàn trang -----
+\begin{tikzpicture}[remember picture,overlay]
+  \draw[line width=1pt]
+    ($(current page.north west)+(1.3cm,-1.3cm)$) rectangle
+    ($(current page.south east)+(-1.3cm,1.3cm)$);
+\end{tikzpicture}
+
+% ----- Header -----
+\textbf{\Large TRƯỜNG ĐẠI HỌC SÀI GÒN}\\[3pt]
+\textbf{\large KHOA: CÔNG NGHỆ THÔNG TIN (CLC)}\\[12pt]
+
+% ----- Logo -----
+\includegraphics[width=8cm]{sgu-logo.png}\\[14pt] % 10cm hơi to quá
+
+% ----- Tiêu đề -----
+{\Large \textbf{BÀI TẬP GIỮA KỲ}}\\[8pt]
+
+{\normalsize Môn: Xử lý ngôn ngữ tự nhiên (NLP)}\\
+{\normalsize Mã học phần: 844488 \quad Số tín chỉ: 4}\\[10pt]
+
+{\Large \textbf{ĐỀ TÀI: RNN / LSTM}}\\[10pt] % tăng khoảng cách dưới đề tài
+
+% ===== Tạo khoảng cách đều giữa đề tài và bảng thông tin =====
+\vspace{1.5cm} % <-- chỉnh 1.2–2cm tuỳ ý để tạo độ thoáng
+
+% ----- Bảng thông tin (căn giữa, cách đều) -----
+\begin{center}
+\setlength{\tabcolsep}{6pt}       % khoảng cách giữa 2 cột
+\renewcommand{\arraystretch}{1.6} % giãn dòng đều giữa các hàng
+\begin{tabular}{@{}l l@{}}        % 2 cột căn trái
+\textbf{Giảng viên hướng dẫn:} & PGS.TS. Nguyễn Tuấn Đăng \\ 
+\textbf{Sinh viên thực hiện:}  & Trương Phú Kiệt \quad -- \quad 3122411109 \\ 
+\textbf{Lớp:}                  & DCT1122C3 \\
+\end{tabular}
+\end{center}
+
+% ===== Thêm khoảng cách sau bảng (nếu cần cân đối cuối trang) =====
+\vspace{1cm}
+
+\vfill
+
+% ----- Địa điểm & thời gian -----
+\textit{Thành phố Hồ Chí Minh, tháng 11 năm 2025}
+
+\end{center}
+\end{titlepage}
+
+% --- Mục lục ---
+\newpage
+\begin{center}
+  \Large\bfseries MỤC LỤC
+\end{center}
+\vspace{0.8cm} % khoảng cách giữa tiêu đề và danh sách
+\tableofcontents
+\newpage
+
+% --- Phần nội dung ---
+
+
+
+
+% ----- Sang trang mới -----
+% =======================
+% TRANG "LỜI MỞ ĐẦU"
+% =======================
+
+
+\newpage
+\pagenumbering{arabic}             % bắt đầu đánh số trang từ đây (tuỳ chọn)
+
+\begin{center}
+    \section*{LỜI MỞ ĐẦU}
+\addcontentsline{toc}{section}{Lời mở đầu}
+\end{center}
+
+\vspace{0.6cm}                     % khoảng cách dưới tiêu đề
+\setlength{\parindent}{1.25cm}     % thụt đầu dòng
+\setlength{\parskip}{6pt}          % khoảng cách giữa các đoạn
+\justifying                        % căn đều hai bên
+Trong thời đại công nghệ số hiện nay, việc hiểu và phân tích cảm xúc của con người qua ngôn ngữ tự nhiên đã trở thành một hướng nghiên cứu quan trọng trong lĩnh vực trí tuệ nhân tạo (AI) và xử lý ngôn ngữ tự nhiên (NLP). Phân tích cảm xúc (Sentiment Analysis) không chỉ giúp máy tính hiểu được trạng thái tích cực, tiêu cực hay trung lập trong văn bản, mà còn đóng vai trò quan trọng trong nhiều ứng dụng như đánh giá sản phẩm, phản hồi khách hàng, hay theo dõi xu hướng dư luận trên mạng xã hội.
+
+Để đạt được độ chính xác cao trong bài toán phân tích cảm xúc, việc lựa chọn mô hình học sâu phù hợp là yếu tố then chốt. Trong đó, mô hình RNN (Recurrent Neural Network) và đặc biệt là biến thể LSTM (Long Short-Term Memory) được xem là những công cụ mạnh mẽ trong việc xử lý dữ liệu chuỗi văn bản. LSTM có khả năng ghi nhớ các thông tin quan trọng trong chuỗi dữ liệu dài, đồng thời loại bỏ những thông tin không cần thiết, giúp mô hình hiểu ngữ cảnh tốt hơn so với các mô hình truyền thống.
+
+Các nghiên cứu gần đây cho thấy rằng, việc kết hợp mô hình Encoder–Decoder dựa trên LSTM có thể mang lại hiệu quả cao trong bài toán phân tích cảm xúc đa lớp (Positive, Negative, Neutral). Encoder có nhiệm vụ mã hóa thông tin ngữ nghĩa của toàn bộ câu đầu vào thành vector ngữ cảnh (context vector), trong khi Decoder sử dụng vector này để sinh ra nhãn cảm xúc tương ứng. Bên cạnh đó, việc sử dụng cơ chế như teacher forcing hay attention (chú ý) còn giúp cải thiện đáng kể hiệu năng của mô hình trong các tập dữ liệu phức tạp.
+
+Bài tiểu luận này sẽ tập trung phân tích cơ chế hoạt động của mô hình RNN–LSTM trong bài toán phân tích cảm xúc đa lớp, bao gồm các bước xử lý dữ liệu, kiến trúc mô hình, và quá trình lan truyền tiến (forward pass). Thông qua việc trình bày chi tiết các phép tính và cấu trúc mô hình, bài tiểu luận hướng đến việc giúp người đọc hiểu rõ hơn về cách mà LSTM học được mối quan hệ giữa các từ trong câu để đưa ra dự đoán cảm xúc chính xác.
+
+Cuối cùng, bài viết cũng sẽ đề xuất một số hướng cải tiến nhằm nâng cao độ chính xác của mô hình, như tối ưu tham số, điều chỉnh kích thước embedding, hay áp dụng cơ chế attention để tăng khả năng tập trung vào các từ quan trọng trong câu. Với mục tiêu cung cấp những kiến thức và giải pháp thiết thực, bài tiểu luận này không chỉ mang giá trị học thuật mà còn có thể được ứng dụng trong thực tế, phục vụ cho các hệ thống phân tích cảm xúc tự động trong doanh nghiệp, mạng xã hội hay các nền tảng đánh giá trực tuyến.
+% Nếu muốn có mục lục và muốn "Lời mở đầu" xuất hiện trong TOC:
+% \addcontentsline{toc}{section}{Lời mở đầu}
+% ===== TRANG LỜI CAM ĐOAN =====
+\newpage
+\begin{center}
+  \section*{LỜI CAM ĐOAN}
+\addcontentsline{toc}{section}{Lời cam đoan}
+\end{center}
+
+\vspace{0.8cm}
+\setlength{\parindent}{1.25cm} % thụt đầu dòng
+\setlength{\parskip}{6pt}      % khoảng cách giữa các đoạn
+\justifying                    % căn đều hai bên (cần \usepackage{ragged2e})
+
+Tôi, Trương Phú Kiệt, xin đại diện chịu trách nhiệm và cam đoan rằng:
+
+Những nội dung được trình bày trong bài tiểu luận môn Xử lý ngôn ngữ tự nhiên (Natural Language Processing - NLP) là kết quả nghiên cứu và thực hiện của riêng tôi, dưới sự hướng dẫn của \textbf{PGS.TS. Nguyễn Tuấn Đăng}.
+
+Tôi khẳng định rằng toàn bộ nội dung trong bài tiểu luận này không sao chép từ bất kỳ nguồn tài liệu nào mà không được trích dẫn rõ ràng. Tôi cam đoan không vi phạm quyền sở hữu trí tuệ hay bản quyền của bất kỳ cá nhân hoặc tổ chức nào.
+
+Tôi chịu trách nhiệm hoàn toàn về tính trung thực, chính xác và khách quan của các kết quả, nhận định và phân tích được trình bày trong bài. Những nội dung này được xây dựng dựa trên sự hiểu biết, nghiên cứu tài liệu và kiến thức đã được học trong quá trình tham gia môn học Xử lý ngôn ngữ tự nhiên (NLP).
+
+Tôi xin cam đoan rằng bài tiểu luận này được thực hiện một cách độc lập, trung thực và phản ánh đúng năng lực học tập, nghiên cứu của bản thân.
+\vspace{1cm}
+\begin{flushright}
+Xin chân thành cảm ơn.\\[6pt]
+\textbf{Sinh viên thực hiện}\\[12pt]
+\end{flushright}
+
+% Dịch theo lề trái: thay 10cm bằng số bạn muốn
+\noindent\hspace*{13.8cm}\textbf{Kiệt}\\[-25pt]
+
+\begin{flushright}
+\textbf{Trương Phú Kiệt}
+\end{flushright}
+
+\newpage
+\input{de_bai}
+\newpage
+\input{bai_giai}
+\newpage
+\begin{center}
+  \section*{TÀI LIỆU THAM KHẢO}
+\addcontentsline{toc}{section}{Tài liệu tham khảo}
+\end{center}
+\vspace{6mm}
+
+\begin{minipage}{0.9\textwidth} % ↓ tự xuống dòng khi dài quá khổ
+\textbf{Tiếng Anh}
+
+\begin{enumerate}[label={[\arabic*]}, leftmargin=1cm, labelsep=6pt, itemsep=6pt]
+  \item A. Sherstinsky, “Fundamentals of Recurrent Neural Network (RNN) and Long
+  Short-Term Memory (LSTM) Networks,” 2023. [Online]. Available:
+  \url{https://arxiv.org/pdf/1808.03314}.
+
+  \item Eberhard-Karls-University Tübingen, “Recurrent Neural Networks (RNNs): A Gentle
+  Introduction and Overview,” Nov. 23, 2019. [Online]. Available:
+  \url{https://arxiv.org/pdf/1912.05951}.
+
+  \item J. Allen, \textit{Natural Language Understanding} (2nd ed.). Pearson, 1994.
+\end{enumerate}
+
+\vspace{4mm}
+\textbf{Tiếng Việt}
+
+\begin{enumerate}[label={[\arabic*]}, leftmargin=1cm, labelsep=6pt, itemsep=6pt]
+  \item D. Dương, “Recurrent Neural Network (Phần 1): Tổng quan và ứng dụng,” 2018.
+  [Online]. Available:
+  \url{https://viblo.asia/p/recurrent-neural-networkphan-1-tong-quan-va-ung-dung-v1EaB4m5kw}.
+  
+  \item N. T. Tuấn, “Recurrent Neural Network,” 2019. [Online]. Available:
+  \url{https://nttuan8.com/bai-13-recurrent-network/}.
+  
+  \item N. T. Long, “Tìm hiểu LSTM: Bí quyết giữ thông tin lâu dài hiệu quả,” 2025.
+  [Online]. Available:
+  \url{https://viblo.asia/p/tim-hieu-lstm-bi-quyet-giu-thong-tin-lau-dai-hieu-qua-MG24BaevZ3}.
+\end{enumerate}
+\end{minipage}
+
+\end{document}
