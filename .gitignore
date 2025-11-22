@@ -1,2 +1,3 @@
 videos.zip
-Data/
+Data/YOLO/*.pt
+YOLO/*.pt

@@ -218,10 +218,14 @@ Mọi đóng góp đều được chào đón! Hãy tạo Pull Request hoặc m�
 | 🌀 **KMeans Clustering** | [Xem Canvas](https://www.canva.com/design/DAG0AgMIdeI/nSC7YnyBhJq-lxUX4VHYwQ/edit) |
 | 🧠 **CNN (Convolutional Neural Network)** | [Xem Canvas](https://www.canva.com/design/DAG0k1BtRMY/sSwAmH3TCnEO5oux_8C2iQ/edit) |
 | 🗣️ **CNN for Text Classification (NLP)** | [Xem Canvas](https://www.canva.com/design/DAG0pMVsh1g/iLGh4JGtSY-XdLSzuF9Suw/edit) |
+| 🧠 **RNN (Recurrent Neral Networks)** | [Xem Canvas](https://www.canva.com/design/DAG2kjV7FP4/Nri7P3ejwkh9iYB9SnntOw/edit) |
 | 🧩 **VGG Network** | [Xem Canvas](https://www.canva.com/design/DAG1WmUVVAA/da9eJiuqoLMyywksKU9C_Q/edit) |
 | 🎯 **YOLO (Object Detection)** | [Xem Canvas](https://www.canva.com/design/DAG13Fvc2Zo/YQOEeYHzBFIdm9_CjeqliA/edit) |
 | 🔁 **ResNet (Residual Network)** | [Xem Canvas](https://www.canva.com/design/DAG2mWgdXkw/jjbjbrMHs3HSH7RTadEDMg/edit) |
-| **Self-Organizing Maps (SOM) - Bản đồ tự tổ chức** | [Xem Canvas](https://www.canva.com/design/DAG3K5NC1QQ/N4HKT_5uaxu8NCR6T0w8Lg/edit?fbclid=IwY2xjawN4zxhleHRuA2FlbQIxMABicmlkETFiOVA5TjZxWG5IR0FaNkF5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHi4dnCu3wv2XU9drtbje9eYKgyC4VFfoDCfBk158SEl0khcs9wgdRm_wZBNu_aem_Z4unKlUHzVO50PFExkgYLA) |
+| **VIT (Vision Transformer)** | [Xem Canvas](https://www.canva.com/design/DAG37VlY-8o/QyoyideCzExhHC1hq9JbPg/edit?ui=eyJBIjp7fX0) |
+| **GCN (Graph Convolutional Networks )** | [Xem Canvas](https://www.canva.com/design/DAG3NBWhQVU/54tM-Rr5aF6KzNDU8y51IQ/edit) |
+| **Encoder-Decoder** | [Xem Canvas](https://www.canva.com/design/DAG3SNePims/2qpF03qZoJR29d11VYg1pg/edit) |
+| **Decision Tree** | [Xem Canvas](https://www.canva.com/design/DAG0p4tH3Gc/Id4V6EgIgTWgok62uCAIkw/edit?utm_content=DAG0p4tH3Gc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
 | **RNN (Recurrent Neural Network)** | [Xem Canvas](https://www.canva.com/design/DAG2kjV7FP4/Nri7P3ejwkh9iYB9SnntOw/edit?fbclid=IwY2xjawN4z2hleHRuA2FlbQIxMABicmlkETFiOVA5TjZxWG5IR0FaNkF5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHgJlqoGyMQkOATqZOV0H941YliaTCdI03o381MtRCFTbsSM4UUMqmaocRd8x_aem_wkicuxCeA-39oCVUtMfCXA) |
 | **EfficientNet** | [Xem Canvas](https://www.canva.com/design/DAG2kh8IXRI/cNZhpCeR4W0ft_sRqHGt1w/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0&fbclid=IwY2xjawN4z7JleHRuA2FlbQIxMABicmlkETFiOVA5TjZxWG5IR0FaNkF5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHpwGcX9lz8wJ-YS83lh0Cp0IC5Ct1X6dHsBrXRr0f0zixxlOrWhncCHV_y2k_aem_q4_TEyf3tW87hudHq5tEZg) |
 | **GCN (Graph Convolutional Networks)** | [Xem Canvas](https://www.canva.com/design/DAG3NBWhQVU/54tM-Rr5aF6KzNDU8y51IQ/edit?fbclid=IwY2xjawN6V7JleHRuA2FlbQIxMABicmlkETFEZkNLVEJoV3VLQmtGOGRTc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHj5gmfJ_XAqqV_J5VA_PVWt-0LHiD0AsJLiKiZoMjCseJU4VGH-ueBANwNMI_aem_HLSAfFVV8h0ochgdQKH5Xg) |
@@ -231,4 +235,3 @@ Mọi đóng góp đều được chào đón! Hãy tạo Pull Request hoặc m�
 ---
 
 > 🧱 **Ghi chú:** Danh sách đang được **cập nhật thêm...**  
-> 💡 *Gợi ý:* Nên ghim trang này để tiện tra cứu khi học hoặc làm project.
