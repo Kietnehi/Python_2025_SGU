@@ -36,7 +36,7 @@ This repository contains exercises, projects, and study materials on Python and 
 
 ### 🧠 Deep Learning - Computer Vision
 
-#### Kiến trúc CNN (Convolutional Neural Networks)
+#### Architecture CNN (Convolutional Neural Networks)
 - **VGG**: VGG16, VGG19 - Deep convolutional networks
 - **ResNet**: Residual Networks - Networks with skip connections
 - **ViT (Vision Transformer)**: Transformer-based architecture for images
