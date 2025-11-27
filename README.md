@@ -17,11 +17,11 @@
 
 
 
-## 📚 Giới thiệu
+## 📚 Introductions
 
 This repository contains exercises, projects, and study materials on Python and Machine Learning/Deep Learning at Saigon University (SGU) in 2025. The content ranges from fundamental Python knowledge to modern Deep Learning models.
 
-## 📋 Nội dung chính
+## 📋 Main Content
 
 ### 🐍 Basic Python
 - **NumPy**: Array manipulation and numerical computation
