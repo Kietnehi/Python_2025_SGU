@@ -194,8 +194,7 @@ jupyter notebook
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Đóng góp
-
+## 🤝 Contributing
 All contributions are welcome! Please open a Pull Request or create an Issue if you have suggestions for improvements.
 
 ---
